@@ -75,10 +75,6 @@ h1{
     width: 10%;
 }
 
-.intro-container{
-
-}
-
 .info-container{
     margin-top: 3rem;
     display: flex;
@@ -95,6 +91,27 @@ margin-top: 4rem;
     border: none;
     font-size: 1.1rem;
     width: fit-content;
+}
+
+@media (min-width : 768px) {
+    .logo > img{
+        width: 15%;
+    }
+}
+@media (min-width:1024px) {
+    .hero{
+        background-image: url('1.jpg');
+    }
+     .navbar{
+        justify-content: space-between;
+     }
+     .logo > img{
+        width: 9%;
+     }
+     .image-wrapper{
+        align-items: flex-end;
+     }
+
 }
 
 
