@@ -2,15 +2,12 @@
 *,*::before,*::after{
     box-sizing: border-box;
 }
-html{
-    color-scheme: light dark;
-}
-
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Montserrat',sans-serif;
     line-height: 1.5;
+    color: white;
 }
 
 h1,h2,h3,h4,p{
@@ -58,6 +55,7 @@ h1{
     font-size: 1.1rem;
     border: 1px solid white;
     padding: .3rem .8rem;
+    color: white;
    background-color: transparent;
 }
 
