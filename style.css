@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:ital@1&display=swap');
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html{
+    color-scheme: light dark;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.hero{
+    background-image: url('5.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+}
+.logo > img{
+     width: 30%;  /*Not setting it to 100%*/
+     display: block;
+     object-fit: cover;
+     object-position: center;
+}
+.right{
+    display: flex;
+    gap: 2rem;
+}
+
+.right button:nth-child(1){
+    font-size: 1.1rem;
+    padding: .3rem 1rem;
+    background-color: red;
+    color: white;
+   border: none;
+   
+}
+.right button:nth-child(2){
+    font-size: 1.1rem;
+    border: 1px solid white;
+    padding: .3rem .8rem;
+   background-color: transparent;
+}
+
+
+.main-content-container{
+    margin-top: 14rem;
+    display: grid;
+    align-items: flex-start;
+}
+
+.image-wrapper{
+    display: flex;
+}
+.image-wrapper > img{
+    display: inline-block;
+    width: 10%;
+}
+
+.intro-container{
+
+}
+
+.info-container{
+    margin-top: 3rem;
+    display: flex;
+    font-size: 1.05rem;
+    flex-direction: column;
+    gap: .41rem;
+    align-items: flex-start;
+}
+
+.main-content-container button{
+    padding: 1rem;
+margin-top: 4rem;
+    background-color: red;
+    border: none;
+    font-size: 1.1rem;
+    width: fit-content;
+}
+
+
